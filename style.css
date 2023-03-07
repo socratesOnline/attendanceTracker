@@ -42,11 +42,11 @@ table {
 #itemList {
     height: 116px;
     overflow-y: auto;
-    border: 1px solid gray;
+    border: 1px solid white;
 }
 
 #itemList tr:nth-of-type(even){
-    background-color: lightblue;
+    background-color: #255332;
 }
 
 #studentList td:nth-child(2) {
@@ -54,7 +54,7 @@ table {
 }
 
 select option:nth-of-type(even) {
-    background-color: lightblue;
+    background-color: #255332;
 }
 
 select option {
@@ -69,8 +69,7 @@ select option {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, rgb(172, 172, 252), rgb(55, 55, 252));
+    background-color: #255332;
     color: #FFF;
     height: 50px;
     padding: 1em;
