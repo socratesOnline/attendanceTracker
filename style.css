@@ -35,12 +35,14 @@ table {
 }
  
 #itemWrapper {
+    margin-top: 30px;
     width: 480px;
     height: 180px;
  }
 
 #itemList {
-    height: 116px;
+    margin-top: 20px;
+    height: 420px;
     overflow-y: auto;
     border: 1px solid gray;
 }
@@ -60,7 +62,9 @@ select option:nth-of-type(even) {
 select option {
     padding: 3px;
 }
-
+.add{
+    float: right;
+}
 
 
 
