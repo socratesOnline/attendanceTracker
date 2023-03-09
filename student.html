@@ -7,18 +7,47 @@
     <link rel="stylesheet" href="style.css">
     <title>Student</title>
 </head>
+asdf
 <body>
-    <nav>
-        <ul>
-            <li class="inactive"><a href="class.html">Class Maintenance</a></li>
-            <li class="active"><a href="student.html">Student Maintenance</a></li>
-            <li class="inactive"><a href="attendance.html">Attendance Taker</a></li>
+
+    <section class="top-nav">
+        <div id="logo">
+            <img src="images/at2.gif" alt="Attendance Tracker 2.0 icon" />
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="class.html">Class Maintenance</a></li>
+            <li><a href="student.html">Student Maintenance</a></li>
+            <li><a href="attendance.html">Attendance Taker</a></li>
         </ul>
-    </nav>
+    </section>
+
     <main>
         <h1>Student Maintenance</h1>
         <div id="itemWrapper">
             <table>
+                <tr>
+                    <td>
+                        <select style="width:100%">
+                            <option selected>Year</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select style="width:100%">
+                            <option selected>Semester</option>
+                            <option>Spring</option>
+                            <option>Summer A</option>
+                            <option>Summer B</option>
+                            <option>Fall</option>
+                        </select>
+                    </td>
+                </tr>
                 <tr>
                     <td colspan="2">
                         <select style="width:100%">
@@ -64,10 +93,21 @@
                     <td>
                         <input 
                             type="text" 
-                            placeholder="Enter New Student"
-                            style="width:265px;"
+                            placeholder=" MEID"
+                            style="width:85px;"
                         >
-                    </td>
+                        <input 
+                            type="text" 
+                            placeholder=" First Name"
+                            style="width:85px;"
+                        >
+                        <input 
+                            type="text" 
+                            placeholder=" Last Name"
+                            style="width: 85px;"
+                        >
+                    </td>   
+               
                     <td style="text-align: right;">
                         <button>Delete</button>
                         <button>Add</button>
